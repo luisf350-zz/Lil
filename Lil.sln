@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Products", "Lil.Products\Lil.Products.csproj", "{C87CA54D-2188-427E-9EFE-D093D3DA50C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Products", "Lil.Products\Lil.Products.csproj", "{C87CA54D-2188-427E-9EFE-D093D3DA50C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Sales", "Lil.Sales\Lil.Sales.csproj", "{4ADA3405-94AD-43BE-A9A7-E4B82C9CC2F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Sales", "Lil.Sales\Lil.Sales.csproj", "{4ADA3405-94AD-43BE-A9A7-E4B82C9CC2F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Customers", "Lil.Customers\Lil.Customers.csproj", "{F8405497-6FB7-4EBC-99CD-0440A805B278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Customers", "Lil.Customers\Lil.Customers.csproj", "{F8405497-6FB7-4EBC-99CD-0440A805B278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Search", "Lil.Search\Lil.Search.csproj", "{3EBE8444-955C-4E72-BDF2-D41FCD8A67FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Search", "Lil.Search\Lil.Search.csproj", "{3EBE8444-955C-4E72-BDF2-D41FCD8A67FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Customers.Tests", "Lil.Customers.Tests\Lil.Customers.Tests.csproj", "{BE70593D-9CBF-4AE8-9CFC-B42AFA81672E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Products.Tests", "Lil.Products.Tests\Lil.Products.Tests.csproj", "{2442FAE0-D9A1-4A61-964A-01B14C42CFA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Sales.Tests", "Lil.Sales.Tests\Lil.Sales.Tests.csproj", "{71BF0775-1126-4F04-8BDF-34269813C9B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Search.Tests", "Lil.Search.Tests\Lil.Search.Tests.csproj", "{F7EF2786-BC78-4D0A-9457-2A876C6602DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{3EBE8444-955C-4E72-BDF2-D41FCD8A67FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EBE8444-955C-4E72-BDF2-D41FCD8A67FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EBE8444-955C-4E72-BDF2-D41FCD8A67FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE70593D-9CBF-4AE8-9CFC-B42AFA81672E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE70593D-9CBF-4AE8-9CFC-B42AFA81672E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE70593D-9CBF-4AE8-9CFC-B42AFA81672E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE70593D-9CBF-4AE8-9CFC-B42AFA81672E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2442FAE0-D9A1-4A61-964A-01B14C42CFA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2442FAE0-D9A1-4A61-964A-01B14C42CFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2442FAE0-D9A1-4A61-964A-01B14C42CFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2442FAE0-D9A1-4A61-964A-01B14C42CFA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BF0775-1126-4F04-8BDF-34269813C9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BF0775-1126-4F04-8BDF-34269813C9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BF0775-1126-4F04-8BDF-34269813C9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BF0775-1126-4F04-8BDF-34269813C9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EF2786-BC78-4D0A-9457-2A876C6602DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EF2786-BC78-4D0A-9457-2A876C6602DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EF2786-BC78-4D0A-9457-2A876C6602DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EF2786-BC78-4D0A-9457-2A876C6602DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

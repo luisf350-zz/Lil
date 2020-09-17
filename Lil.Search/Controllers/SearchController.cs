@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Lil.Search.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using Lil.Search.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 
 namespace Lil.Search.Controllers
 {
